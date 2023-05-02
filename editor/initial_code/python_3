@@ -16,3 +16,6 @@ assert idade_camila(30, 25, 20) == 25
 
 # Teste 3 - idade do meio no terceiro parâmetro
 assert idade_camila(18, 24, 21) == 21
+
+print("Seu código passou pelos testes, clique em Check para avançar!")
+
