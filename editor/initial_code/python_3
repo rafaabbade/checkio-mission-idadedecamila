@@ -1,19 +1,18 @@
-def soma(a,b):
+def idade_camila(a,b,c):
     # escreva aqui seu código
     return None
 
 
 print("Example:")
-print(soma(3,2))
+print(idade_camila(14,15,16))
 
 # As funções assert são utilizadas para verificar se o resultado da função chamada é o esperado
-# testa a função com números positivos como parâmetros
-assert soma(2, 3) == 5 
-    
-# testa a função com um número negativo como parâmetro
-assert soma(-1, 5) == 4
-    
-# testa a função com zero como parâmetro
-assert soma(0, 0) == 0
-    
-print("Seu código passou pelos testes, clique em Check para avançar!")
+# Teste 1 - idade do meio no primeiro parâmetro
+assert idade_camila(12, 15, 10) == 12
+
+# Teste 2 - idade do meio no segundo parâmetro
+
+assert idade_camila(30, 25, 20) == 25
+
+# Teste 3 - idade do meio no terceiro parâmetro
+assert idade_camila(18, 24, 21) == 21
